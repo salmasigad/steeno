@@ -28,6 +28,7 @@ nav {
   margin-top: 5px;
   display: flex;
   align-items: center;
+  
 }
 
 nav ul {
@@ -36,7 +37,7 @@ nav ul {
   padding: 0;
   display:flex;
   justify-content: center;
-
+  
 }
 
 nav ul li {
@@ -76,9 +77,24 @@ h2 {
   
 }
 
-
+/* coding for the firsts section starts here*/
 #section1 {
   background-color: #2B3044;
   color: white;
 
+}
+
+#section1 {
+  background-image: url('/img/Untitled\ design.jpg');
+  background-size: cover; /* Scale the background image to cover the entire element */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Prevent the background image from repeating */
+  color: white;
+  height: 500px;
+  padding: 50px;
+  fo
+}
+
+#section1 h2 {
+  font-size: 80px;
 }
