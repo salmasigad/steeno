@@ -5,6 +5,14 @@ body {
   background-color: #2B3044;
 }
 
+h2{
+  font-size: 2rem;
+}
+
+p{
+  font-size: 1rem;
+}
+
 .logo {
   float: left; /* Float the logo to the left */
   margin-left: 20px; /* Adjust the margin as needed */
@@ -92,7 +100,7 @@ h2 {
   color: white;
   height: 500px;
   padding: 50px;
-  fo
+  
 }
 
 #section1 h2 {
