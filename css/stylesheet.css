@@ -13,69 +13,71 @@ p{
   font-size: 1rem;
 }
 
-.logo {
-  float: left; /* Float the logo to the left */
-  margin-left: 20px; /* Adjust the margin as needed */
-  margin-top: 1px;
+/* coding for the logo and nav bar starts here*****************************************'*/
+/*ændre størrelse på logo*/
+.logo{
+  width: 180px;
 }
 
-.logo img {
-  width: auto;
-  height: 70px; /* Adjust the height of the logo image */
-  margin-top: 5px; /* Adjust the top margin as needed */
- 
+/*ændre på udseendet af nav-bar. give padding, float, with*/
+.nav-links{
+  float: right;
 }
 
-
-nav {
+.nav-links li{
+  padding: 50px;
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
   background-color: #2B3044;
-  color: #fff;
-  padding: 10px 20px; /* Adjust padding to align with the navigation list */
   font-family: "shlop",sans-serif;
-  font-size: 25px;;
-  margin-top: 5px;
-  display: flex;
-  align-items: center;
-  
-}
 
-nav ul {
+}
+/* Style unordered list */
+.navbar ul {
   list-style-type: none;
-  margin: 0;
   padding: 0;
-  display:flex;
-  justify-content: center;
-  
 }
 
-nav ul li {
-  display: inline;
-  margin: 0 40px;
-  
+/* Style list items */
+.navbar li {
+  display: inline-block;
 }
 
-nav ul li a {
-  color: #fff;
+/* Style navigation links */
+.navbar a {
+  display: block;
+  color: white;
   text-decoration: none;
-}
-nav ul li:last-child { /* Styles for the last list item */
-  margin-left: auto;
+  font-size: 25px;
 }
 
-nav ul li:last-child a {
-  background-color: #ff5f6d;
-  padding: 10px 20px;
-  border-radius: 5px;
-  color: #fff;
-  text-decoration: none;
+/* ændre farven ved hover */
+.navbar a:hover {
+  color: #000000;
 }
 
-main {
-  padding: 20px;
+.buttonbuy {
+  padding: 10px 20px; /* Add padding */
+  border-radius: 5px; /* Add border radius to make it look like a button */
+  background-color: #3D989B; /* Add background color */
+  color: white; /* Text color */
+  text-decoration: none; /* Remove underline */
 }
 
+.buttonbuy.buttonbuy:hover {
+  background-color: #cb4853; /* Change background color on hover */
+}
+
+/* coding for the logo, nav bar ends  here********************************************************/
+
+/* coding for the firsts section starts here*/
 section {
   margin-bottom: 50px;
+  margin-top: 100px;
   padding-top: 100px;
 }
 
@@ -85,7 +87,6 @@ h2 {
   
 }
 
-/* coding for the firsts section starts here*/
 #section1 {
   background-color: #2B3044;
   color: white;
@@ -106,3 +107,9 @@ h2 {
 #section1 h2 {
   font-size: 80px;
 }
+
+.title{
+  margin-top: 80px;
+}
+/* coding for the firsts section ends here*/
+/* coding for the second section starts here*/
