@@ -83,7 +83,7 @@ nav ul li a.active {
 
 /* styling for the logo, nav bar ends  here********************************************************/
 
-/* styling for the firsts section starts here*/
+/* sty for the firsts section starts here*/
 section {
   margin-bottom: 50px;
   margin-top: 100px;
@@ -115,7 +115,8 @@ h2 {
 }
 
 #section1 h2 {
-  font-size: 80px;
+ 
+  font-size: 5rem;
 }
 
 #section1 p{
@@ -148,7 +149,7 @@ h2 {
 #section2{
   background-color: #495172;
   display: flex;
-  align-items: ce;
+
 }
 
 .virus-image{
@@ -157,20 +158,16 @@ h2 {
 /* styling for the second section ends here*/
 
 /* styling for the third section starts here*/
-#section3 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+
 
 article {
-  text-align: left; 
+  text-align: center; 
   background-color: #7784B6;
-  display: flex;
 }
 
 article h2 {
   margin-bottom: 20px; 
+  
 }
 
 article img {
@@ -184,16 +181,13 @@ article img {
   justify-content: center;
   align-items: center;
   height: auto;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 
 
 .infographic {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center; 
+  display: flex; 
 
 }
 
@@ -201,7 +195,7 @@ article img {
   display: flex;
   justify-content: center;
   margin: 0 auto;
-  width: 50%;
+  width: 60%;
   max-width: 100%;
   cursor: zoom-in;
   transition: transform 1s;
@@ -221,18 +215,18 @@ input[id="zoom_img"]:checked ~ label > img {
   transition: transform 1s ease;
 }
 
-.igtekst{
-  color: #3E2B05;
-  padding: 20px;
-}
 .igtekst h2 {
   font-size: 5rem;
+  color: #3E2B05;
+  text-align: center;
   margin-top: 50px;
 }
 
 .igtekst p {
-  margin: 0 ;
+  margin: 0 10%;
   font-size: 25px;
+  text-align: center;
+  padding: 40px;
   font-weight: 500;
 line-height: 1.6;
 }
