@@ -153,14 +153,43 @@ h2 {
 
 /* styling for the firsts section ends here*/
 /* styling for the second section starts here*/
-#section2 {
-  background-color: #495172;
-  display: flex;
+/*indsæt baggrundbillede der dækker siden og er fixed og relative*/
+/* Placer indhold i kolonner */
+.boxsection {
+    margin: 30px 0px;
+    padding: 0;
+    height: 500px;
+    background-image: url('/img/image.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    display: flex;
+    flex-direction: column; /* Sætter indhold i kolonner */
 }
 
+/* Style tekstboksen */
+/* Style tekstboksen */
+.box {
+    text-align: center;
+    padding: 20px;
+    background-color: #7784B6;
+    width: 700px;
+    height: 500px;
+    color: white;
+    z-index: 500;
+    align-self: flex-end; /* Placerer boksen i bunden af .nemtsection */
+}
+.box h2{
+  font-size: 30px;
+  margin: 15px;
+}
 
-.virus-image{
-
+/* Juster størrelse på billeder */
+.box img {
+  width: 75px;
+  margin-bottom: 20px; /* Tilføj lidt afstand under billederne */
 }
 /* styling for the second section ends here*/
 
