@@ -81,9 +81,9 @@ nav ul li a.active {
   background-color: #cb4853; /* Change background color on hover */
 }
 
-/* coding for the logo, nav bar ends  here********************************************************/
+/* styling for the logo, nav bar ends  here********************************************************/
 
-/* coding for the firsts section starts here*/
+/* styling for the firsts section starts here*/
 section {
   margin-bottom: 50px;
   margin-top: 100px;
@@ -143,8 +143,8 @@ h2 {
 
 }
 
-/* coding for the firsts section ends here*/
-/* coding for the second section starts here*/
+/* styling for the firsts section ends here*/
+/* styling for the second section starts here*/
 #section2{
   background-color: #495172;
   display: flex;
@@ -152,20 +152,21 @@ h2 {
 }
 
 .virus-image{
-  
-}
-/* coding for the second section ends here*/
 
-/* coding for the third section starts here*/
-#main-content {
-  max-width: 800px; 
-  margin: 0 auto; 
-  padding: 20px;
+}
+/* styling for the second section ends here*/
+
+/* styling for the third section starts here*/
+#section3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 article {
-  text-align: center; 
+  text-align: left; 
   background-color: #7784B6;
+  display: flex;
 }
 
 article h2 {
@@ -189,7 +190,10 @@ article img {
 
 
 .infographic {
-  display: flex; 
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
 
 }
 
@@ -217,18 +221,18 @@ input[id="zoom_img"]:checked ~ label > img {
   transition: transform 1s ease;
 }
 
+.igtekst{
+  color: #3E2B05;
+  padding: 20px;
+}
 .igtekst h2 {
   font-size: 5rem;
-  color: #3E2B05;
-  text-align: center;
   margin-top: 50px;
 }
 
 .igtekst p {
-  margin: 0 10%;
+  margin: 0 ;
   font-size: 25px;
-  text-align: center;
-  padding: 40px;
   font-weight: 500;
 line-height: 1.6;
 }
