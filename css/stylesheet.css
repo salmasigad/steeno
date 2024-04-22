@@ -258,10 +258,7 @@ line-height: 1.6;
 
 /* styling for the fourth section starts here*/
 
-#section4 article {
-  background-color: #B8C0DF; 
- 
-}
+
 
 .content {
   display: flex;
@@ -274,12 +271,14 @@ line-height: 1.6;
 }
 
 .video-container {
-  flex: 2;
+  flex: 3;
+ 
 }
 
 video {
   width: 100%; /* Adjust width as needed */
   display: block;
+  
 }
 
 h2 {
