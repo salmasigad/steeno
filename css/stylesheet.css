@@ -25,7 +25,8 @@ p{
 }
 
 .nav-links li{
-  padding: 50px;
+  padding: 40px;
+  margin-left: 150px;
 }
 .navbar {
   position: fixed;
@@ -82,6 +83,12 @@ nav ul li a.active {
 }
 
 /* styling for the logo, nav bar ends  here********************************************************/
+
+section {
+  height: 100vh; /* Set the height of each section to 100% of the viewport height */
+  margin: 0; /* Remove any default margin */
+  padding: 0; /* Remove any default padding */
+}
 
 /* sty for the firsts section starts here*/
 section {
@@ -215,7 +222,7 @@ input[id="zoom_img"]:checked ~ label > img {
   width: 90%;
 }
 .igtekst h2 {
-  font-size: 4rem;
+  font-size: 3rem;
   color: #fff;
   text-align: center;
  
@@ -224,7 +231,7 @@ input[id="zoom_img"]:checked ~ label > img {
 .igtekst p {
   color: #fff;
   margin: 0 10%;
-  font-size: 25px;
+  font-size: 20px;
   text-align: center;
   padding: 30px;
   font-weight: 500;
@@ -250,7 +257,39 @@ line-height: 1.6;
 }
 
 /* styling for the fourth section starts here*/
-.section4 {
-  background-color:#bfc7e4;
+
+#section4 article {
+  background-color: #B8C0DF; 
+ 
 }
+
+.content {
+  display: flex;
+  align-items: center;
+}
+
+.text {
+  flex: 1;
+  padding: 0 20px; /* Adjust padding as needed */
+}
+
+.video-container {
+  flex: 2;
+}
+
+video {
+  width: 100%; /* Adjust width as needed */
+  display: block;
+}
+
+h2 {
+  font-size: 40px; /* Adjust font size as needed */
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 25px; /* Adjust font size as needed */
+  margin-bottom: 20px;
+}
+
 /* styling for the fourth section ends here*/
