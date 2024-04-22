@@ -165,10 +165,6 @@ article {
   background-color: #7784B6;
 }
 
-article h2 {
-  margin-bottom: 20px; 
-  
-}
 
 article img {
   max-width: 100%; 
@@ -181,7 +177,7 @@ article img {
   justify-content: center;
   align-items: center;
   height: auto;
-  flex-direction: row;
+  flex-direction: row
 }
 
 
@@ -195,14 +191,14 @@ article img {
   display: flex;
   justify-content: center;
   margin: 0 auto;
-  width: 50%;
+  width: 70%;
   max-width: 100%;
   cursor: zoom-in;
   transition: transform 1s;
-  border: 5px solid #2B3044;
+  border: 5px solid #F8AB9D;
   border-radius: 20px;
   margin-bottom: 20px;
-
+ margin-right: 150px;
 }
 
 input[type=checkbox] {
@@ -214,22 +210,29 @@ input[id="zoom_img"]:checked ~ label > img {
   cursor: zoom-out;
   transition: transform 1s ease;
 }
-
+.igtekst{
+  margin-right: 130px;
+  width: 90%;
+}
 .igtekst h2 {
-  font-size: 3rem;
-  color: #3E2B05;
+  font-size: 4rem;
+  color: #fff;
   text-align: center;
-  margin-top: 50px;
+ 
 }
 
 .igtekst p {
+  color: #fff;
   margin: 0 10%;
   font-size: 25px;
   text-align: center;
-  padding: 40px;
+  padding: 30px;
   font-weight: 500;
 line-height: 1.6;
+
+
 }
+
 .button {
   background-color: #3D989B;
   color: white;
@@ -238,6 +241,8 @@ line-height: 1.6;
   text-decoration: none;
   font-size: 20px; /* Adjust button font size */
   transition: background-color 0.3s;
+  font-family:"shlop",sans-serif; ;
+  
 }
 
 .button:hover {
