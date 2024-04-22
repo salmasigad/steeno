@@ -195,11 +195,11 @@ article img {
   display: flex;
   justify-content: center;
   margin: 0 auto;
-  width: 60%;
+  width: 50%;
   max-width: 100%;
   cursor: zoom-in;
   transition: transform 1s;
-  border: 5px solid #F8AB9D;
+  border: 5px solid #2B3044;
   border-radius: 20px;
   margin-bottom: 20px;
 
@@ -216,7 +216,7 @@ input[id="zoom_img"]:checked ~ label > img {
 }
 
 .igtekst h2 {
-  font-size: 5rem;
+  font-size: 3rem;
   color: #3E2B05;
   text-align: center;
   margin-top: 50px;
@@ -229,4 +229,17 @@ input[id="zoom_img"]:checked ~ label > img {
   padding: 40px;
   font-weight: 500;
 line-height: 1.6;
+}
+.button {
+  background-color: #3D989B;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 20px; /* Adjust button font size */
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #306e70;
 }
