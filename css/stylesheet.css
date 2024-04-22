@@ -140,17 +140,17 @@ h2 {
   font-family: "shlop",sans-serif;;
  font-size: 1.3rem;
  
- 
+ margin-top: 120px;
 
 }
 
 /* styling for the firsts section ends here*/
 /* styling for the second section starts here*/
-#section2{
+#section2 {
   background-color: #495172;
   display: flex;
-
 }
+
 
 .virus-image{
 
@@ -248,3 +248,9 @@ line-height: 1.6;
 .button:hover {
   background-color: #306e70;
 }
+
+/* styling for the fourth section starts here*/
+.section4 {
+  background-color:#bfc7e4;
+}
+/* styling for the fourth section ends here*/
