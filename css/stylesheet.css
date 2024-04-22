@@ -147,6 +147,12 @@ h2 {
 /* coding for the second section starts here*/
 #section2{
   background-color: #495172;
+  display: flex;
+  align-items: ce;
+}
+
+.virus-image{
+  
 }
 /* coding for the second section ends here*/
 
@@ -156,6 +162,7 @@ h2 {
   margin: 0 auto; 
   padding: 20px;
 }
+
 article {
   text-align: center; 
   background-color: #7784B6;
