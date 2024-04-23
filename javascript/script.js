@@ -43,16 +43,31 @@ document.addEventListener("DOMContentLoaded", function() {
     });
   });
 
-  // Fetching and processing JSON data
-  fetch('./json/openinghours.json')
+});
+function showOpeningHours() {
+  fetch('openinghours.json')
     .then(response => response.json())
     .then(data => {
+      const openingHours = data.opening_hours;
 
-      console.log(data);
+      const openingHoursContainer = document.getElementById('openingHoursContainer');
+      openingHoursContainer.innerHTML = ''; // Clear previous content
+
+      openingHours.forEach(day => {
+        const dayElement = document.createElement('p');
+        if (day.hours === 'Lukket') {
+          dayElement.textContent = `${day.day}: Lukket`;
+        } else {
+          dayElement.textContent = `${day.day}: ${day.hours}`;
+        }
+        openingHoursContainer.appendChild(dayElement);
+      });
+
+      // Show the opening hours container
+      openingHoursContainer.style.display = 'block';
     })
+    .catch(error => console.error('Error fetching opening hours:', error));
+}
 
-    .catch(error=> console.error('Error fetching JSON:' , error));
-
-});
 
 

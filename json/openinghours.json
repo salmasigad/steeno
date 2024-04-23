@@ -1,16 +1,15 @@
 [
     {
-        "name": "Tirdag-Fredag",
-        "time": "kl 9-16"
-    },
-
-    {
-        "name": "Lørdag-Søndag og helligdage",
-        "time": "Lukket"
-    },
-    
-    {
-     "name": "Mandag",
-     "time": "lukket"
-    }
+        "opening_hours": [
+          {"day": "Mandag", "hours": "Lukket"},
+          {"day": "Tirsdag", "hours": "9:00 - 17:00"},
+          {"day": "Onsdag", "hours": "9:00 - 17:00"},
+          {"day": "Torsdag", "hours": "9:00 - 17:00"},
+          {"day": "Fredag", "hours": "9:00 - 17:00"},
+          {"day": "Lørdag", "hours": "Lukket"},
+          {"day": "Søndag", "hours": "Lukket"}
+        ]
+      }
+      
+      
 ]
