@@ -49,6 +49,12 @@
     
     <!---coding of section 1 ends here -->
    
+
+
+
+
+
+
   <!---coding of section 2 starts here -->
 
   <section id="section2" class="boxsection">
@@ -134,12 +140,16 @@
 <!---coding of section 5 starts here -->
 
   <section id="section5">
-    <h2> Men din rejse stopper ikke her! </h2>
-    <p> Kom og besøge museum</p>
+    <div class="calltoaction">
+       <h2> Men din rejse stopper ikke her! </h2>
+      <p> Kom og besøge museum</p>
+    </div>
+    
     <div class="split">
         <div class="left">
-            <h4>Se Steeno Museum’s Åbningstider</h4>
-            
+            <h4>Se Steeno Museums Åbningstider</h4>
+            <p>Currently Open: <span id="openStatus">Yes</span></p>
+  
             <button onclick="showOpeningHours()">Se åbningstider</button>
         </div>
         <div class="right">
@@ -148,15 +158,48 @@
         </div>
     </div>
 </section>
-
-
-
-
-
 <!---coding of section 5 ends here -->    
 
 
   </main>
+
+<!---footer starts here  -->    
+  <footer>
+    <section>
+        <div>
+            <img id="footerlogo" src="img/logo.jpeg" alt="">
+            <p>Aarhus University
+              <br>
+              C.F. Møllers Allé 2
+              <br>
+              8000 Aarhus C <br>
+            <br>
+              E-mail: sm@au.dk<br>
+              Telefon: +45 87155415</p>
+        </div>
+        <div>
+            <h3>Om os</h3>
+            <p>Hvem er vi <br>
+            <br>
+           <br>
+            <br>
+            </p>
+        </div>
+        <div>
+            <h3>Praktisk info</h3>
+            <p>Ofte stillede spørgsmål <br>
+            Kontakt os <br>
+            Gavekort
+            </p>
+        </div>
+        <div>
+            <h3>Sociale medier</h3>
+            <a href="#"></a>
+            <a href="#"></a>
+        </div>
+    </section>
+</footer>
+<!---footer ends here  -->    
   
   <script src="javascript/script.js"></script>
 </body>
