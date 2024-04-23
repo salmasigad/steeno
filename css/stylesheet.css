@@ -38,7 +38,7 @@ p{
   color: white;
   min-height: 100vh; /* Set minimum height to fill the viewport */
   padding: 50px 0; /* Add padding to create space between sections */
-  box-sizing: border-box; /
+  box-sizing: border-box; 
 }
 
 #section2 {
@@ -46,7 +46,7 @@ p{
   color: white; 
   min-height: 100vh; /* Set minimum height to fill the viewport */
   padding: 50px 0; /* Add padding to create space between sections */
-  box-sizing: border-box; /
+  box-sizing: border-box; 
 
 }
 
@@ -55,7 +55,7 @@ p{
   color: white;
   min-height: 100vh; /* Set minimum height to fill the viewport */
   padding: 50px 0; /* Add padding to create space between sections */
-  box-sizing: border-box; /
+  box-sizing: border-box; 
 }
 
 #section4 {
@@ -351,7 +351,7 @@ line-height: 1.6;
 
 #section4 {
   background-color: #B8C0DF;
-  margin-top: 360px;
+  
  
 }
 
