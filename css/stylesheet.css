@@ -13,6 +13,36 @@ p{
   font-size: 1rem;
 }
 
+/* Ensure each section fills the viewport and has its own color */
+section {
+  min-height: 100vh; /* Set minimum height to fill the viewport */
+  padding: 50px 0; /* Add padding to create space between sections */
+  box-sizing: border-box; /* Include padding in height calculation */
+}
+
+/* Style each section with its own background color */
+#section1 {
+  background-color: #2B3044;
+  color: white;
+}
+
+#section2 {
+  background-color: #495172;
+  color: white; 
+
+}
+
+#section3 {
+  background-color: #7784B6;
+  color: white;
+}
+
+#section4 {
+  background-color: #B8C0DF;
+  color: white;
+}
+
+
 /* coding for the logo and nav bar starts here*****************************************'*/
 /*ændre størrelse på logo*/
 .logo{
@@ -155,42 +185,65 @@ h2 {
 /* styling for the second section starts here*/
 /*indsæt baggrundbillede der dækker siden og er fixed og relative*/
 /* Placer indhold i kolonner */
+
+
+/* Style tekstboksen */
+/* Style tekstboksen */
 .boxsection {
-    margin: 30px 0px;
-    padding: 0;
-    height: 500px;
-    background-image: url('/img/image.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    position: relative;
-    display: flex;
-    flex-direction: column; /* Sætter indhold i kolonner */
+  margin: 30px 0px;
+  padding: 0;
+  background-color: #7784B6;
+  position: relative;
+  display: flex;
+  flex-direction: colum;
 }
 
-/* Style tekstboksen */
-/* Style tekstboksen */
 .box {
-    text-align: center;
-    padding: 20px;
-    background-color: #7784B6;
-    width: 700px;
-    height: 500px;
-    color: white;
-    z-index: 500;
-    align-self: flex-end; /* Placerer boksen i bunden af .nemtsection */
-}
-.box h2{
-  font-size: 30px;
-  margin: 15px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  width: 100%; /* Adjust width as needed */
+  color: white;
 }
 
-/* Juster størrelse på billeder */
-.box img {
-  width: 75px;
-  margin-bottom: 20px; /* Tilføj lidt afstand under billederne */
+.content1 {
+  display: flex;
 }
+
+.image {
+  width: 400px; /* Adjust width as needed */
+  margin-right: 30px; /* Adjust margin as needed */
+}
+
+.text1 {
+  flex: 1;
+  margin-left: 300px;
+  background-color: #7784B6;
+  padding: 90px
+}
+
+.box h2 {
+  font-size: 30px;
+  margin: 15px 0;
+}
+
+.box p {
+  margin-bottom: 20px;
+}
+
+.button {
+  background-color: #3D989B;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  
+}
+
+.button:hover {
+  background-color: #306e70;
+}
+
 /* styling for the second section ends here*/
 
 /* styling for the third section starts here*/
@@ -287,37 +340,38 @@ line-height: 1.6;
 
 /* styling for the fourth section starts here*/
 
-
-
-.content {
-  display: flex;
-  align-items: center;
-}
-
-.text {
-  flex: 1;
-  padding: 0 20px; /* Adjust padding as needed */
-}
-
-.video-container {
-  flex: 3;
+#section4 {
+  background-color: #B8C0DF;
+  margin-top: 360px;
  
 }
 
-video {
-  width: 100%; /* Adjust width as needed */
-  display: block;
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   
 }
 
-h2 {
-  font-size: 40px; /* Adjust font size as needed */
-  margin-bottom: 10px;
+.text {
+  padding: 20px; /* Adjust padding as needed */
+  text-align: center;
+  color: #fff;
+  
 }
 
-p {
-  font-size: 25px; /* Adjust font size as needed */
-  margin-bottom: 20px;
+.video-container {
+  position: relative;
+  width: 80%; /* Adjust width as needed */
+  margin: 0 auto; /* Center the container */
 }
 
-/* styling for the fourth section ends here*/
+.video-container video {
+  width: 70%;
+  height: auto;
+  margin-left: 190px;
+}
+
+
+
+
