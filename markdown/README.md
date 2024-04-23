@@ -3,4 +3,4 @@
 
 1. Vi bruger API I vores JSON-data
 2. Vi har skrevet koden i javascript
-3. 
+3. Vi bruger JSON TIL openingshours
