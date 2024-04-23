@@ -389,11 +389,14 @@ line-height: 1.6;
   background-color:#92A8E9; /* Adjust background color as needed */
   padding: 50px 0;
   margin-bottom: 50px;
+  text-align: center; /* Center the content horizontally */
 }
 
 .calltoaction {
-
+  /* Center the element horizontally */
+  margin: 20px auto; /* Center the call to action and add some margin around it */
 }
+
 .split {
   display: flex;
   justify-content: space-between;
