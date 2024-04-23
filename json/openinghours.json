@@ -1,6 +1,6 @@
 [
     {
-        "opening_hours": [
+        "openinghours": [
           {"day": "Mandag", "hours": "Lukket"},
           {"day": "Tirsdag", "hours": "9:00 - 17:00"},
           {"day": "Onsdag", "hours": "9:00 - 17:00"},

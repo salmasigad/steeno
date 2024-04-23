@@ -48,7 +48,7 @@ function showOpeningHours() {
   fetch('openinghours.json')
     .then(response => response.json())
     .then(data => {
-      const openingHours = data.opening_hours;
+      const openingHours = data[0].openinghours; // Access the openinghours array inside the first object
 
       const openingHoursContainer = document.getElementById('openingHoursContainer');
       openingHoursContainer.innerHTML = ''; // Clear previous content
