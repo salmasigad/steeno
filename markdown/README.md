@@ -14,7 +14,7 @@
 
 Steno museum er åbne:
 
-Tirsdag fra kl.9-17
+Tirsdag fra kl.9 til 17
 
 Onsdag fra kl. 9 til kl. 17
 
