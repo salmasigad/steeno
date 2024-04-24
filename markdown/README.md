@@ -1,16 +1,10 @@
 # Markdown
 
-# Forkalring på hvordan vi har implementeret integration af JSON data-objekter
+## Forkalring på hvordan vi har implementeret integration af JSON data-objekter
 
-# Vi har skrevet koden i javascript
-# Vi bruger JSON TIL openingshours
-# Vi har ændret i både javascript og Json
+I openinghours.json filen har vi skrevet. Vi har skrevet koden i javascript. Vi bruger JSON TIL openingshours. Vi har ændret i både javascript og Json. Vi har brugt JSON hvori vi har brugt JSON-fil til at implementerer det og JSON-filen hedder openinghours.json
 
-# Vi har brugt JSON hvori vi har brugt JSON-fil til at implementerer det og JSON-filen hedder openinghours.json
-
-#  I openinghours.json filen har vi skrevet
-
-# antal dage og timer som steno museum er åbnet
+## antal dage og timer som steno museum er åbnet
 
 Steno museum er åbne:
 
@@ -24,7 +18,7 @@ Fredag fra kl. 9 til kl. 17
 
 Vi har brugt arrays i en liste  til at vise dagen som steno museum lukket som vi har skrevet  I openinghours.json filen.
 
-# antal dage som steno museum er lukket
+## antal dage som steno museum er lukket
 
 Steno museum er lukket:
 
