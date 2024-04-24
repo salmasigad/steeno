@@ -35,7 +35,26 @@ fetch('openinghours.json')
     console.error('Error fetching or parsing opening hours data:', error);
   });
 
-
+  //shows the åbningstider when you press the button
+  document.getElementById('toggleOpeningHours').addEventListener('click', function() {
+    var openingHours = document.getElementById('openingHours');
+    if (openingHours.style.display === 'none') {
+      openingHours.style.display = 'block';
+    } else {
+      openingHours.style.display = 'none';
+    }
+  });
+  
+  //shows the billet priser when you press the button
+  document.getElementById('toggleBilletPriser').addEventListener('click', function() {
+    var billetPriser = document.getElementById('billetPriser');
+    if (billetPriser.style.display === 'none') {
+      billetPriser.style.display = 'block';
+    } else {
+      billetPriser.style.display = 'none';
+    }
+  });
+  
 
 // Smooth scrolling
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
@@ -48,38 +67,3 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   });
 });
 
-// JavaScript
-document.addEventListener("DOMContentLoaded", function() {
-  const button = document.querySelector(".buttonbuy1");
-  button.addEventListener("click", function(event) {
-    event.preventDefault();
-    const targetSection = document.querySelector(button.getAttribute("href"));
-    targetSection.scrollIntoView({ behavior: "smooth" });
-  });
-});
-
-document.addEventListener("DOMContentLoaded", function() {
-  const sections = document.querySelectorAll("section");
-
-  window.addEventListener("scroll", function() {
-    let current = "";
-
-    sections.forEach(section => {
-      const sectionTop = section.offsetTop;
-      const sectionHeight = section.clientHeight;
-      if (pageYOffset >= sectionTop - sectionHeight / 3) {
-        current = section.getAttribute("id");
-      }
-    });
-
-    // Highlight or update navigation based on the current section
-    const navLinks = document.querySelectorAll("nav ul li a");
-    navLinks.forEach(link => {
-      link.classList.remove("active");
-      if (link.getAttribute("href").slice(1) === current) {
-        link.classList.add("active");
-      }
-    });
-  });
-
-});

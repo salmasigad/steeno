@@ -3,7 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Steeno- jem</title>
+  <meta name="description" content="Opdag den fascinerende verden af epidemier på Steeno Museum. Udforsk historiske udstillinger og lær om sygdommes indvirkning gennem historien. Planlæg dit besøg i dag!">
+  <meta name="keywords" content="Steeno Museum, epidemier, sygdomme, historie, udstillinger, besøg">
+  <meta name="language" content="da">
+  <meta name="author" content="Steeno Museum">
+  <title>Steeno Museum-Epidemier</title>
   <link rel="stylesheet" href="css/stylesheet.css">
   <link rel="stylesheet" href="https://use.typekit.net/cab7uyz.css">
 </head>
@@ -19,16 +23,16 @@
         </li>
         <div class="nav-links">
             <li>
-                <a href="#section1" class="active">Hjem</a>
+                <a href="#section1" >Hjem</a>
             </li>
             <li>
-                <a href="#section2" class="active">Besøge  os</a>
+                <a href="#section5" >Besøge  os</a>
             </li>
             <li>
-                <a href="#section3" class="active">om os</a>
+                <a href="#section2" >om os</a>
             </li>
             <li>
-                <a href="#" class="buttonbuy"> Køb billet</a>
+                <a href="#section5" class="buttonbuy"> Køb billet</a>
             </li>
         </div>
     </ul>
@@ -38,8 +42,9 @@
     <section id="section1">
       <h2 class="title">Epidemier</h2>
 
-      <p>Velkommen til Epidemimysteriet!
-        Træd ind <br> i vores magiske museum, hvor 
+      <p>Velkommen til Steeno museets udstilling om epidemier.<br>
+        
+        Træd ind  i vores magiske museum, hvor 
         historierne  <br> om fortidens sygdomme venter på at blive udforsket.</p>
         
         <a href="#section2" class="buttonbuy1"> Lad eventyret begynde!</a>
@@ -62,8 +67,14 @@
         <div class="content1">
             <img src="img/image.png" alt="virus image" class="image">
             <div class="text1">
-                <h2>Udforsk Virusverdenen:</h2>
-                <p>Udforsk verdenen af virusser, fra de gode, som hjælper med vores kroppe, til de onde, der kan forårsage sygdomme. Lær hvordan de har formet historien og medicinen.</p>
+                <h2>Udforsk en verden af mikroorgonismer</h2>
+                <p>Udforsk verdenen af små organismer 
+                  startende fra de gode, som hjælper med vores kroppe,
+                  
+                   Samt de onde, der kan forårsage sygdomme.
+                  
+                   Lær hvordan de har formet historien og medicinen.
+                  </p>
                 <h2>Dyk Dybere:</h2>
                 <p>Dyk dybere ned i vores interaktive sektion, Opdag, hvordan forskere bekæmper sygdomme med viden.</p>
                 <br>
@@ -85,7 +96,10 @@
           <div class="igtekst">
               <h2>Tag med på et Eventyr gennem Tiden: </h2>
               <p>
-                Tag med på en historisk rejse, hvor vi udforsker, hvordan epidemier har påvirket vores samfund gennem tiden. Herunder finder du vores interaktive infografik, der fortæller historien om smitsomme sygdomme fra Den Sorte Døds skrækindjagende tid i Middelalderen til den moderne udfordring med Ebola-pandemien.
+                Tag med på en historisk rejse, hvor Museum Steeno fører dig gennem tidens labyrinter og udforsker, hvordan epidemier har formet og påvirket vores samfund gennem århundrederne.
+                <br>
+                <br>
+                 Herunder finder du vores interaktive infografik, der fortæller historien om smitsomme sygdomme fra Den Sorte Døds skrækindjagende tid i Middelalderen til den moderne udfordring med Ebola-pandemien.
 
 
 
@@ -122,7 +136,7 @@
       <div class="content">
         <div class="text">
           <h2>Har du nogensinde hørt om den mystiske og kraftfulde sygdom ved navn Ebola?</h2>
-          <p>Kom med os på en spændende rejse gennem tid og opdag, hvordan modige sjæle har stået over for denne frygtindgydende virus.</p>
+          <p>Nedenfor finder du en video med en læge, der taler om Ebola-virussen. Se videoen og lad Museum Steeno give dig indsigt i, hvordan den moderne medicinske verden arbejder for at forstå og bekæmpe denne farlige sygdom.</p>
         </div>
         <div class="video-container">
           <video controls>
@@ -142,7 +156,7 @@
   <section id="section5">
     <div class="calltoaction">
        <h2> Men din rejse stopper ikke her! </h2>
-      <p> Kom og besøge museum</p>
+      <h4> Kom og besøge museum</h4>
     </div>
     
     <div class="split">
@@ -150,11 +164,30 @@
             <h4>Se Steeno Museums Åbningstider</h4>
            
              <span id="openingStatus">Loading...</span>
-            <button onclick="showOpeningHours()">Se åbningstider</button>
+             <br>
+             <br>
+            
+            <button id="toggleOpeningHours">Se åbningstider</button>
+             <div id="openingHours" style="display: none;">
+               <p>Mandag: lukket</p>
+               <p>Tirsdag: 9:00 - 17:00</p>
+              <p>Onsdag: 9:00 - 17:00</p>
+               <p>Torsdag: 9:00 - 17:00</p>
+               <p>Fredag: 9:00 - 17:00</p>
+               <p>Lørdag: Lukket</p>
+               <p>Søndag: Lukket</p>
+               </div>
+
         </div>
         <div class="right">
-            <h4>Læs mere om praktisk information for effektive besøg og bedre planlægning </h4>
-            <button>Praktisk Information</button>
+            <h4>Læs mere om billet for bedre planlægning </h4>
+            <button id="toggleBilletPriser">Billet priser</button>
+            <div id="billetPriser" style="display: none;">
+           <p>Voksne: 50 kr.</p>
+           <p>Børn og unge under 18 år: Gratis</p>
+           <p>Planetariet, weekend og helligdage kl. 12 og 14, uanset alder: 30 kr.</p>
+</div>
+
         </div>
         <div id="openingHoursContainer"></div> <!-- Container to display opening hours -->
    

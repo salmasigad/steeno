@@ -1,3 +1,5 @@
+/* a fixed look for the enite website */
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -13,12 +15,10 @@ p{
   font-size: 1rem;
 }
 
-/* Ensure each section fills the viewport and has its own color */
-
-/* Ensure each section fills the viewport and has its own color */
 
 
-/* Apply minimum height to specific sections */
+/*styling of the sections and that it fills the viewport*/
+
 #section1,
 #section2,
 #section3 {
@@ -32,11 +32,11 @@ p{
   box-sizing: border-box;
 }
 
-/* Style each section with its own background color */
+/* Styling of each section with its own background color and viewport height */
 #section1 {
   background-color: #2B3044;
   color: white;
-  min-height: 100vh; /* Set minimum height to fill the viewport */
+  min-height: 100vh; 
   padding: 50px 0; /* Add padding to create space between sections */
   box-sizing: border-box; 
 }
@@ -64,9 +64,8 @@ p{
   
 }
 
-
 /* coding for the logo and nav bar starts here*****************************************'*/
-/*ændre størrelse på logo*/
+
 .logo{
   width: 180px;
 }
@@ -116,9 +115,9 @@ nav ul li a.active {
   font-size: 25px;
 }
 
-/* ændre farven ved hover */
+/* change the color of the hover */
 .navbar a:hover {
-  color: #000000;
+  color: #3D989B;
 }
 
 .buttonbuy {
@@ -148,7 +147,6 @@ h2 {
 }
 
 
-
 #section1 {
   background-image: url('/img/Untitled\ design.jpg');
   background-size: cover; /* Scale the background image to cover the entire element */
@@ -167,8 +165,8 @@ h2 {
 
 #section1 p{
   font-size: 25px;
-  margin-left: 70px;
-  margin-bottom: 170px;
+  margin-left: 60px;
+  margin-bottom: 180px;
 
 }
 .title{
@@ -185,19 +183,15 @@ h2 {
   text-decoration: none; /* Remove underline */
   font-family: "shlop",sans-serif;;
  font-size: 1.3rem;
- 
- margin-top: 120px;
+  margin-top: 120px;
 
 }
 
-/* styling for the firsts section ends here*/
+/* styling for the firsts section ends here***************************/
+
+
 /* styling for the second section starts here*/
-/*indsæt baggrundbillede der dækker siden og er fixed og relative*/
-/* Placer indhold i kolonner */
 
-
-/* Style tekstboksen */
-/* Style tekstboksen */
 .boxsection {
   margin: 30px 0px;
   padding: 0;
@@ -220,7 +214,7 @@ h2 {
 }
 
 .image {
-  width: 400px; /* Adjust width as needed */
+  width: 300px; /* Adjust width as needed */
   margin-right: 30px; /* Adjust margin as needed */
 }
 
@@ -228,7 +222,9 @@ h2 {
   flex: 1;
   margin-left: 300px;
   background-color: #7784B6;
-  padding: 90px
+  padding: 90px;
+  line-height: 1.5; /* 1.5 times the font size */
+  
 }
 
 .box h2 {
@@ -253,7 +249,7 @@ h2 {
   background-color: #306e70;
 }
 
-/* styling for the second section ends here*/
+/* styling for the second section ends here********************/
 
 /* styling for the third section starts here*/
 
@@ -311,6 +307,7 @@ input[id="zoom_img"]:checked ~ label > img {
 .igtekst{
   margin-right: 130px;
   width: 90%;
+  line-height: 1.5;
 }
 .igtekst h2 {
   font-size: 3rem;
@@ -347,27 +344,36 @@ line-height: 1.6;
   background-color: #306e70;
 }
 
+/* styling for the third section ends here *****************************/
+
+
 /* styling for the fourth section starts here*/
 
 #section4 {
   background-color: #B8C0DF;
   
- 
 }
 
 .content {
   display: flex;
   flex-direction: column;
   align-items: center;
+
   
 }
 
 .text {
   padding: 20px; /* Adjust padding as needed */
   text-align: center;
+  justify-content: center;
   color: #fff;
  
   
+}
+.text p{
+  display: block;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .video-container {
@@ -444,11 +450,6 @@ button:hover {
   background-color: #306e70; /* Adjust button background color on hover */
 }
 
-
-/* Remove Min Height for Sections 4 and 5 */
-
-
-/* Adjust Footer Layout */
 
 
 
